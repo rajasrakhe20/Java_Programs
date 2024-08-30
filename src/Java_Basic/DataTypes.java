@@ -21,7 +21,7 @@ public class DataTypes {
         /* Type Casting in Java
          Widening Casting : Where smaller data  type to larger data type conversion is done automatically
 
-         Narrowing Casting: Larger data type to smaller data type conversion is done. I t is done manually.
+         Narrowing Casting: Larger data  type to smaller data type conversion is done. I t is done manually.
          Both Examples are given below*/
 
         int num = 24;
@@ -31,6 +31,5 @@ public class DataTypes {
         double value = 9.2356d;
         int answer = (int) value;
         System.out.println(answer);
-
     }
 }
