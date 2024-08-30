@@ -1,5 +1,17 @@
 package Java_OOPS;
 
+class Square{
+    private int side;
+
+    public void setSide(int side){
+        this.side=side;
+    }
+
+    public int getArea(){
+        return side*side;
+    }
+}
+
 class Rectangle{
 
     private int  length;
@@ -59,6 +71,10 @@ public class Encapsulation {
         Rectangle rectangle = new Rectangle(4,5);
         System.out.println("Area is: "+ rectangle.getArea());
         System.out.println("Perimtere is: "+ rectangle.getPerimeter());
+
+        Square square = new Square();
+        square.setSide(5);
+        System.out.println("Area of a sqaure is: "+ square.getArea());
 
     }
 }
