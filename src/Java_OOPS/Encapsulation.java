@@ -74,7 +74,7 @@ public class Encapsulation {
 
         Square square = new Square();
         square.setSide(5);
-        System.out.println("Area of a sqaure is: "+ square.getArea());
+        System.out.println("Area of a sqaure is:  "+ square.getArea());
 
     }
 }
