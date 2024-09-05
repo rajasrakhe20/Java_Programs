@@ -63,8 +63,7 @@ public class Encapsulation {
         person.setName("Rajas");
         person.setAge(30);
 
-        // Using methods to get the values from the
-        //
+        // Using methods to get the values for corresponding data variables
         System.out.println("Name: " + person.getName());
         System.out.println("Age: " + person.getAge());
 
