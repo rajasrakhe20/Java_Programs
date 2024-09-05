@@ -4,32 +4,39 @@ public class DataTypes {
 
     public static void main(String[] args) {
 
-        int a = 10;
-        float b = 5.25f;
-        double c = 12.3452789d;
+        byte byteNum = 2;
+        short shortNum = 1;
+        int intNum = 10;
+        long longNum = 12334421;
+
+        float floatNum = 5.25f;
+        double doubleNum = 12.3452789d;
         boolean val =  true;
         char ch = 'A';
+        char character = 'म';
         String name ="Rajas Rakhe";
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(val);
-        System.out.println(ch);
-        System.out.println(name);
+        System.out.println("Print Primitive Data Types Values: ");
+        System.out.println("Btye: "+ byteNum);
+        System.out.println("Short: "+ shortNum);
+        System.out.println("Integer: "+ intNum);
+        System.out.println("Long: "+longNum);
+        System.out.println("Float: "+floatNum);
+        System.out.println("Double: "+doubleNum);
+        System.out.println("Character: "+ ch);
+        System.out.println("Print Non-Primitive Data Type: ");
+        System.out.println("String: "+ name);
 
-        /* Type Casting in Java
-         Widening Casting : Where smaller data  type to larger data type conversion is done automatically
+        /*
+        In Java , char has 2 bytes means 16-bits
+        For ASCII Code system , 8-bits are enough for ASCII characters
+        But JAVA support Unicode code system which is internationally use
+        For Unicode system, 8-bits are not enough hence Java use 2 bytes(16-bits) to represent character
+        Example -  you can assign different language character/numeric/symbolic values to the variable and
+        use it in Java.
+        Example: Marathi letter '' is used below and printed also
+        */
+        System.out.println("Marathi Character: "+ character);
 
-         Narrowing Casting: Larger data  type to smaller data type conversion is done. I t is done manually.
-         Both Examples are given below*/
-
-        int num = 24;
-        double myNum  = num;
-        System.out.println(myNum);
-
-        double value = 9.2356d;
-        int answer = (int) value;
-        System.out.println(answer);
     }
 }
