@@ -7,6 +7,7 @@ public class Operators {
         // Arithmetic operators
         int a = 12;
         int b = 5 ;
+        int c = 5;
         boolean x = true;
         boolean y = false;
 
@@ -33,6 +34,14 @@ public class Operators {
         System.out.println(" Logical OR  (x || y) : " + (x || y));
         System.out.println(" Logical NOT (!x) : " + (!x));
 
+        // Relational Operator
+        System.out.println("Relational Operations: ");
+        System.out.println("a > b: " + (a > b));
+        System.out.println("a < b: " + (a < b));
+        System.out.println("a >= b: " + (a >= b));
+        System.out.println("a <= b: " + (a <= b));
+        System.out.println("a == c: " + (a == c));
+        System.out.println("a != c: " + (a != c));
 
     }
 }
