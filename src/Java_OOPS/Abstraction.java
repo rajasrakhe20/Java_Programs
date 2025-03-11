@@ -13,7 +13,6 @@ class Circle implements Shape{
         this.radius = radius;
     }
 
-
     @Override
     public double findArea() {
         return Math.PI*radius*radius;
