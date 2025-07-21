@@ -1,4 +1,4 @@
-package java_colletion_framework.iterable_interface;
+package java_collection_framework.iterable_interface;
 
 import java.util.*;
 
